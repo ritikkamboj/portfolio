@@ -44,7 +44,7 @@ function Navbar() {
   };
   return (
     <div className="text-white/70 pt-6">
-      <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[400px] ">
+      <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[400px]  ">
         <ul className="flex flex-row space-x-8 p-4">
           {navlink.map((item, index) => (
             <li className="text-white" key={index}>
