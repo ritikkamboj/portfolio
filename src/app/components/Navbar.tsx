@@ -5,8 +5,8 @@ import React from "react";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
-import path from "path";
-import { ul } from "framer-motion/client";
+// import path from "path";
+// import { ul } from "framer-motion/client";
 
 const navlink = [
   {
