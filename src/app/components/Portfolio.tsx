@@ -44,13 +44,13 @@ function Portfolio() {
       <h1 className="text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 my-12">
         Selected <span className="text-orange-400">Projects</span>
       </h1>
-      <div className="max-w-[1200px] mx-auto space-y-24">
+      <div className="max-w-[1200px] mx-auto space-y-24 px-6 md:px-0">
         {projects.map((project, index) => (
           <motion.div
             key={index}
             className={`flex ${
               index % 2 === 1
-                ? "flex-col-reverse md:flex-row-reverse gap-12"
+                ? "flex-col md:flex-row-reverse gap-12"
                 : "flex-col md:flex-row gap-12"
             }`}
           >

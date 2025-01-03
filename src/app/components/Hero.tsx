@@ -17,7 +17,10 @@ function Hero() {
           <h1 className="text-[#E48A57]">Jon Doe</h1>
         </div>
 
-        <motion.div className="absolute left-[280px] top-[170px]" drag>
+        <motion.div
+          className="hidden md:block absolute left-[280px] top-[170px]"
+          drag
+        >
           <Image
             src={icon1}
             height={150}
@@ -28,7 +31,10 @@ function Hero() {
           />
         </motion.div>
 
-        <motion.div className="absolute right-[220px] top-[20px]" drag>
+        <motion.div
+          className="  hidden md:block absolute right-[220px] top-[20px]"
+          drag
+        >
           <Image
             src={icon2}
             height={160}

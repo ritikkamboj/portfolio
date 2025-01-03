@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import phone from "./../assests/phone.png";
 import mail from "./../assests/mail.png";
 import Image from "next/image";
@@ -36,7 +35,7 @@ function Contact() {
           method="POST"
           className="space-y-4"
         >
-          <div className="grid grid-cols-2 gap-4">
+          <div className=" flex flex-col gap-4 md:grid md:grid-cols-2 md:gap-4">
             <input
               name="fname"
               type="text"
